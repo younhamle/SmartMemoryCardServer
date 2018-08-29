@@ -20,7 +20,7 @@ public class SmartCard {
 	
 	private String title;
 	
-    @OneToMany(mappedBy = "smartcard")
+    @OneToMany(mappedBy = "smartCard")
     private List<Word> words = new ArrayList<Word>();
 	
 	public List<Word> getWords() {
